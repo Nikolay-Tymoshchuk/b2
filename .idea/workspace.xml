@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c70b6e1-2c79-4fee-b3b0-e3e3f6817f7f" name="Changes" comment="" />
+    <list default="true" id="8c70b6e1-2c79-4fee-b3b0-e3e3f6817f7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +41,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Volumes/AVODA/devit/mern/b2/node_modules/typescript/lib&quot;
   }
 }</component>
@@ -56,6 +62,9 @@
       <updated>1740058997280</updated>
       <workItem from="1740058998581" duration="1282000" />
       <workItem from="1740065012436" duration="3070000" />
+      <workItem from="1740384122770" duration="8000" />
+      <workItem from="1740384153780" duration="168000" />
+      <workItem from="1740384329000" duration="43000" />
     </task>
     <servers />
   </component>

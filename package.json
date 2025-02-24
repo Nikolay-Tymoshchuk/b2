@@ -1,4 +1,23 @@
 {
+    "name": "b2",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev --turbopack",
+        "build": "prisma generate && next build",
+        "start": "next start",
+        "lint": "next lint",
+        "lint:fix": "eslint --fix \"{src,app}/**/*.{js,jsx,ts,tsx}\"",
+        "format": "prettier --write \"{src,app}/**/*.{js,jsx,ts,tsx,css}\"",
+        "check-types": "tsc --pretty --noEmit",
+        "check-format": "prettier --check \"{src,app}/**/*.{js,jsx,ts,tsx,css}\"",
+        "check-lint": "eslint \"{src,app}/**/*.{js,jsx,ts,tsx}\"",
+        "test-all": "npm run format && npm run check-format && npm run check-lint && npm run check-types && npm run build",
+        "prepare": "husky"
+    },
+    "prisma": {
+        "seed": "tsx prisma/seed.ts"
+    },
     "dependencies": {
         "@hookform/resolvers": "^4.1.0",
         "@prisma/client": "^6.4.1",
@@ -39,24 +58,5 @@
         "prisma": "^6.4.1",
         "typescript": "^5",
         "typescript-eslint": "^8.24.1"
-    },
-    "name": "b2",
-    "prisma": {
-        "seed": "tsx prisma/seed.ts"
-    },
-    "private": true,
-    "scripts": {
-        "build": "prisma generate && next build",
-        "check-format": "prettier --check \"{src,app}/**/*.{js,jsx,ts,tsx,css}\"",
-        "check-lint": "eslint \"{src,app}/**/*.{js,jsx,ts,tsx}\"",
-        "check-types": "tsc --pretty --noEmit",
-        "dev": "next dev --turbopack",
-        "format": "prettier --write \"{src,app}/**/*.{js,jsx,ts,tsx,css}\"",
-        "lint": "next lint",
-        "lint:fix": "eslint --fix \"{src,app}/**/*.{js,jsx,ts,tsx}\"",
-        "prepare": "husky",
-        "start": "next start",
-        "test-all": "npm run format && npm run check-format && npm run check-lint && npm run check-types && npm run build"
-    },
-    "version": "0.1.0"
+    }
 }
